@@ -1,3 +1,5 @@
-export const toAmericanFloor = number => {
+const toAmericanFloor = number => {
   return 0;
 }
+
+export default toAmericanFloor;

@@ -1,0 +1,23 @@
+{
+  "name": "real-floor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyjsargeant/real-floor.git"
+  },
+  "author": "Anthony Sargeant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonyjsargeant/real-floor/issues"
+  },
+  "homepage": "https://github.com/anthonyjsargeant/real-floor#readme"
+}

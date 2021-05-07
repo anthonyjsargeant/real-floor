@@ -13,7 +13,7 @@ In order to know which floor I am on, as a developer I would like to write a Jav
 ### Acceptance Criteria
 - With the first floor being replaced by the ground floor, and the 13th floor being removed, floor numbers must move down to take their place.
 - All floors above the 13th floor must move down by two to account for there being two omitted floors.
-- Basements floors which are denoted by negative floor numbers, must stay the same as they would be in both schemes.
+- Basement floors which are denoted by negative floor numbers, must stay the same as they would be in both schemes.
 
 #### Examples
 ```

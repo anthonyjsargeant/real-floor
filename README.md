@@ -17,9 +17,9 @@ In order to know which floor I am on, as a developer I would like to write a Jav
 
 #### Examples
 ```
-1  =>  0
-0  =>  0
-5  =>  4
+ 1  =>  0
+ 0  =>  0
+ 5  =>  4
 15  =>  13
 -3  =>  -3
 ```

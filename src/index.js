@@ -1,4 +1,7 @@
 const toAmericanFloor = (usFloor) => {
+  if (typeof usFloor !== "number") {
+    return "Please enter a valid number";
+  }
   let europeanFloor = 0;
   if (usFloor < 0) {
     europeanFloor = usFloor;

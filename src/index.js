@@ -1,11 +1,13 @@
-const toAmericanFloor = (number) => {
-  if (number <= 0) {
-    return number;
-  } else if (number < 13) {
-    return number - 1;
-  } else {
-    return number - 2;
+const toAmericanFloor = (usFloor) => {
+  let europeanFloor = 0;
+  if (usFloor < 0) {
+    europeanFloor = usFloor;
+  } else if (usFloor > 1 && usFloor < 13) {
+    europeanFloor = usFloor - 1;
+  } else if (usFloor > 13) {
+    europeanFloor = usFloor - 2;
   }
+  return europeanFloor;
 };
 
 export default toAmericanFloor;

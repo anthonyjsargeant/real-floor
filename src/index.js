@@ -1,5 +1,9 @@
-const toAmericanFloor = number => {
-  return 0;
-}
+const toAmericanFloor = (number) => {
+  if (number < 0) {
+    return number;
+  } else {
+    return 0;
+  }
+};
 
 export default toAmericanFloor;

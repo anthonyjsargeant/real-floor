@@ -15,4 +15,7 @@ describe("Converting the lift floor", () => {
   it("should return four for the fifth floor", () => {
     expect(toAmericanFloor(5)).toStrictEqual(4);
   });
+  it("should return fifteen for the seventeeth floor", () => {
+    expect(toAmericanFloor(17)).toStrictEqual(15);
+  });
 });

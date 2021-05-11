@@ -3,6 +3,8 @@ const toAmericanFloor = (number) => {
     return number;
   } else if (number < 13) {
     return number - 1;
+  } else {
+    return number - 2;
   }
 };
 
